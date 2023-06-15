@@ -70,7 +70,7 @@ table a{
       font-family: "Overpass",sans-serif;
   font-weight: 50;
 }
-td:hover{
+td:hover {
  background-color: #ffffff;
   transition: transform 0.8s;
   transform: rotateX(360deg);
@@ -84,7 +84,7 @@ display: flex;
 
 }
 main div{
-  margin-top: 10px;
+  margin-top: 70px;
   width: 800px;
   border: 2px solid #0ab6ff;
   padding: 20px;
@@ -109,4 +109,27 @@ li{
   font-family: "Overpass", sans-serif;
   font-weight: 50;
   list-style-type: none;
+}
+footer{
+  width: 100%;
+position: absolute;
+  bottom: 0px;
+  height: 100px;
+  border: 1px solid #0ab6ff;
+  text-align: end;
+  background-color: #ffffff;
+}
+footer ul{
+  position: absolute;
+  text-align: left;
+  left: 0px;
+  bottom: 10px;
+
+}
+footer ul li a{
+  text-decoration: none;
+  color: black;
+}
+li a:hover{
+  background-color: #7ff5ed;
 }
