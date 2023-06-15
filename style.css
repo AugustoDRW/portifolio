@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #8fe3ff;
+}
+header{
+  height: 50px;
+  margin-top: 5px;
+  display: flex;
+  background-color: #9efff9;
+  margin-left: 80px;
+  padding-left: 10px;
+  color: black;
+align-items: center;
+    justify-content: space-between;
+  gap:50px;
+  
+}
+
+
+header a:hover{
+  border:1px solid;
+  border-radius: 50%;
+}
+#erro{
+  text-align: center;
+}
+#perfil{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 80px;
+  border: 2px solid #7ff5ed;
+  vertical-align: middle;
+
+}
+h1 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: bolder;
+}
+nav{
+  padding-right: 30px;
+  display: flex;
+  gap:100px;}
+header img{
+  width: 40px;
+  vertical-align: middle;
+}
+#projetos{
+position: absolute;
+top:54px;
+right: 0;
+  
+}
+table{
+  text-align: end;
+  width: 200px;
+  border-left: 1px solid #0ab6ff;
+}
+th{
+  background-color: #7ff5ed;
+  font-family: "Overpass",sans-serif;
+  font-weight: bold;
+}
+
+table a{
+  text-decoration: none;
+  color: black;
+      font-family: "Overpass",sans-serif;
+  font-weight: 50;
+}
+td:hover{
+ background-color: #ffffff;
+  transition: transform 0.8s;
+  transform: rotateX(360deg);
+
+}
+main{
+display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+
+}
+main div{
+  margin-top: 10px;
+  width: 800px;
+  border: 2px solid #0ab6ff;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  
+}
+h2{
+  text-align: center;
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+}
+p{
+  font-family: "Overpass", sans-serif;
+  font-weight: 50;
+}
+h3{
+font-family: "Overpass", sans-serif;
+  font-weight: bold;
+}
+li{
+  font-family: "Overpass", sans-serif;
+  font-weight: 50;
+  list-style-type: none;
+}
